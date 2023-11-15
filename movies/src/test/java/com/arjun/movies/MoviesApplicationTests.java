@@ -1,4 +1,4 @@
-package dev.arjun.movies;
+package com.arjun.movies;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
