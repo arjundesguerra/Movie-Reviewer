@@ -1,4 +1,4 @@
-package com.arjun.movies;
+package dev.arjun.movies;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
