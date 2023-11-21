@@ -16,4 +16,8 @@ public class Review {
     private ObjectId id;
     private String body;
 
+    // Body only constructor created because ID is auto generated
+    public Review(String body) {
+        this.body = body;
+    }
 }
