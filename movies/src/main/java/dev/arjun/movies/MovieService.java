@@ -1,6 +1,5 @@
 package dev.arjun.movies;
 
-import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,8 +15,8 @@ public class MovieService {
     }
 
     // Optional because passed id may return a null.
-    public Optional<Movie> singleMovie(ObjectId id) {
-        return movieRepository.findById(id);
+    public Optional<Movie> singleMovie(String imdbId) {
+        return movieRepository.findMovieByImdbId(imdbId);
     }
 
 }
